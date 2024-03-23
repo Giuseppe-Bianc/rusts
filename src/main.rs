@@ -1,8 +1,9 @@
+fn define_x(){
+    let x: &str = "hello";
+    println!("{}, word", x);
+}
+
+
 fn main() {
-   let x: i32 = 10;
-   let y:i32 = 5;
-   {
-    println!("The value of x is {} and the value of y is {}", x, y);
-   }
-   println!("The value of x is {} and the value of y is {}", x, y);
+    define_x()
 }
