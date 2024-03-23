@@ -1,6 +1,6 @@
 fn main() {
-    let x: i32 = 5;
-    let _y :i32;
-    assert_eq!(x, 5);
+    let mut x = 1;
+    x +=2;
+    assert_eq!(x, 3);
     println!("Hello, world!");
 }
