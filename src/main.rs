@@ -1,10 +1,9 @@
 fn main() {
-   let x: i32 = 5;
-   {
-        let x = 12;
-        assert_eq!(x, 12);
-   }
-   assert_eq!(x, 5);
-   let x:i32 = 42;
-   println!("{}", x);
+   let mut _x: i32 = 1;
+   _x = 7;
+   _x += 3;
+
+   let _y :i32= 4;
+   let _y: &str = "i can also binde text";
+   println!("sucses")
 }
